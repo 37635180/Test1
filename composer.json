@@ -1,0 +1,29 @@
+{
+    "name": "zjb/test1",
+    "description": "this is a test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zjb",
+            "email": "37635180@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zjb\\Test1\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zjb\\Test1\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zjb\\Test1\\Test1ServiceProvider"
+            ]
+        }
+    }
+}
